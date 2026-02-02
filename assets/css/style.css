@@ -1,0 +1,86 @@
+/* LSU Social Icons */
+.lsu-social-icon {
+  height: 28px;
+  width: 28px;
+  opacity: 0.92;
+  margin: 0 0.5rem;
+  vertical-align: middle;
+  transition: filter 0.2s;
+}
+.lsu-social-icon.linkedin {
+  filter: invert(18%) sepia(80%) saturate(900%) hue-rotate(230deg) brightness(90%) contrast(110%);
+}
+.lsu-social-icon.orcid {
+  /* LSU purple for ORCID icon */
+  filter: invert(16%) sepia(80%) saturate(900%) hue-rotate(230deg) brightness(90%) contrast(110%);
+}
+.lsu-social-icon.github {
+  filter: invert(18%) sepia(80%) saturate(900%) hue-rotate(230deg) brightness(90%) contrast(110%);
+}
+.lsu-social-icon:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px var(--lsu-gold));
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
+:root{
+  --lsu-purple: #461D7C; /* Official LSU Purple */
+  --lsu-gold: #FDD023;   /* Official LSU Gold */
+  --lsu-corp-purple: #3C1053;
+  --lsu-corp-gold: #D29F13;
+  --lsu-light-purple: #A39AAC;
+  --lsu-light-gold: #F1EEDB;
+  --max-width: 1100px;
+}
+body{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+/* Brand styles */
+.navbar{background:var(--lsu-purple) !important}
+.navbar-brand{font-family: 'Poppins', sans-serif; font-weight:700; font-size:1.25rem; letter-spacing:-0.2px; color:#fff}
+.navbar-brand:hover{color:var(--lsu-gold)}
+.navbar-brand img{height:36px; width:auto; display:block}
+@media (max-width:576px){ .navbar-brand img{height:30px} }
+
+/* Buttons */
+.btn-warning{background:var(--lsu-gold);border-color:var(--lsu-corp-gold);color:var(--lsu-purple)}
+.btn-warning:hover{background:var(--lsu-corp-gold);color:#fff}
+.btn-outline-primary{border-color:var(--lsu-purple);color:var(--lsu-purple)}
+.btn-outline-primary:hover{background:var(--lsu-purple);color:#fff}
+
+/* Smaller, proportionate view profile button */
+.people-card .btn-view-profile {
+  font-size: 0.92rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+  width: auto;
+  min-width: 0;
+}
+.btn-outline-secondary{border-color:var(--lsu-purple);color:var(--lsu-purple)}
+
+/* Badges */
+.badge-lsu{background:var(--lsu-purple);color:#fff}
+
+/* Cards */
+.card-title{color:var(--lsu-purple)}
+.publication-card img{max-height:140px; object-fit:cover}
+.publication-card .card-body{padding:1rem}
+
+/* People cards */
+.people-card .card-img-top{height:180px; object-fit:cover; background:#fafafa}
+.people-card .card-body{padding:1rem}
+
+/* People sections */
+.people-section{margin-top:2.5rem}
+.people-section-title{font-size:1.406rem;color:var(--lsu-purple);margin-bottom:0.75rem}
+
+header{color:#fff}
+.card img{height:250px; object-fit:cover}
+.container{max-width:var(--max-width)}
+/* Small utilities */
+.mb-3{margin-bottom:1rem}
+
+.announcements li{padding:0.6rem 0;border-bottom:1px solid #eee}
+
+@media (max-width:576px){
+  .card img{height:180px}
+  .navbar-brand{font-size:1.05rem}
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Dong Lao",
+    "slug": "dong-lao",
+    "role": "Assistant Professor",
+    "affiliation": "Louisiana State University",
+    "email": "dlao1@lsu.edu",
+    "office": "Office 3272W, Patrick F. Taylor Hall",
+    "education": [
+      "Ph.D. King Abdullah University of Science and Technology (KAUST), 2021",
+      "B.S. Shanghai Jiao Tong University (SJTU), 2015"
+    ],
+    "website": "",
+    "image": "/assets/img/lsu-vision-placeholder.png",
+    "bio": ""
+  },
+  {
+    "name": "Yi Xiao",
+    "slug": "yi-xiao",
+    "role": "Graduate Student",
+    "affiliation": "LSU Vision Lab",
+    "email": "[Placeholder]",
+    "image": "/assets/img/lsu-vision-placeholder.png"
+  },
+  {
+    "name": "Carlos Coronel",
+    "slug": "carlos-coronel",
+    "role": "Undergraduate",
+    "affiliation": "LSU Vision Lab",
+    "email": "[Placeholder]",
+    "image": "/assets/img/lsu-vision-placeholder.png"
+  },
+  {
+    "name": "Ahmad Hijazi",
+    "slug": "ahmad-hijazi",
+    "role": "Undergraduate",
+    "affiliation": "LSU Vision Lab",
+    "email": "[Placeholder]",
+    "image": "/assets/img/lsu-vision-placeholder.png"
+  },
+  {
+    "name": "Austin Louque",
+    "slug": "austin-louque",
+    "role": "Undergraduate",
+    "affiliation": "LSU Vision Lab",
+    "email": "[Placeholder]",
+    "image": "/assets/img/lsu-vision-placeholder.png"
+  },
+  {
+    "name": "Jamar K Whitfield Jr",
+    "slug": "jamar-k-whitfield-jr",
+    "role": "Undergraduate",
+    "affiliation": "LSU Vision Lab",
+    "email": "[Placeholder]",
+    "image": "/assets/img/lsu-vision-placeholder.png"
+  }
+]

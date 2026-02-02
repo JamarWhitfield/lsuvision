@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" role="img" aria-label="Publication placeholder">
+  <rect width="400" height="260" rx="8" fill="#f4f4f6"/>
+  <rect x="20" y="20" width="120" height="80" rx="6" fill="#e9e5f0"/>
+  <rect x="160" y="20" width="220" height="20" rx="4" fill="#ececec"/>
+  <rect x="160" y="50" width="200" height="14" rx="3" fill="#f2f2f2"/>
+  <rect x="160" y="72" width="140" height="12" rx="3" fill="#f2f2f2"/>
+  <rect x="20" y="110" width="340" height="12" rx="3" fill="#f2f2f2"/>
+  <rect x="20" y="132" width="320" height="12" rx="3" fill="#f2f2f2"/>
+  <rect x="20" y="154" width="240" height="12" rx="3" fill="#f2f2f2"/>
+  <rect x="20" y="176" width="160" height="12" rx="3" fill="#f2f2f2"/>
+  <g transform="translate(280,200)">
+    <rect x="0" y="0" width="80" height="32" rx="6" fill="#461D7C"/>
+    <text x="40" y="21" text-anchor="middle" font-family="Poppins, sans-serif" font-size="12" fill="#fff">PDF</text>
+  </g>
+</svg>

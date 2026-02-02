@@ -1,0 +1,11 @@
+{
+  "name": "lsu-vision-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "live-server --port=5173 --entry-file=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
