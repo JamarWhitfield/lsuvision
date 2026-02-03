@@ -1,3 +1,10 @@
+/* Profile photo enlarged for all profiles */
+.profile-photo {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px #0001;
+  background: #fafafa;
+  max-width: 330px;
+}
 /* LSU Social Icons */
 .lsu-social-icon {
   height: 28px;
@@ -23,8 +30,8 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap');
 :root{
-  --lsu-purple: #461D7C; /* Official LSU Purple */
-  --lsu-gold: #FDD023;   /* Official LSU Gold */
+  --lsu-purple: #461D7C; /* lsu purple */
+  --lsu-gold: #FDD023;   /* lsu gold */
   --lsu-corp-purple: #3C1053;
   --lsu-corp-gold: #D29F13;
   --lsu-light-purple: #A39AAC;
