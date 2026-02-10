@@ -11,7 +11,7 @@
       "B.S. Shanghai Jiao Tong University (SJTU), 2015"
     ],
     "website": "",
-    "image": "/assets/img/people/dong-lao.svg",
+    "image": "assets/img/people/dong-lao.svg",
     "bio": ""
   },
   {
@@ -20,7 +20,7 @@
     "role": "Graduate Student",
     "affiliation": "LSU Vision Lab",
     "email": "[Placeholder]",
-    "image": "/assets/img/people/yi-xiao.svg"
+    "image": "assets/img/people/yi-xiao.svg"
   },
   {
     "name": "Carlos Coronel",
@@ -28,7 +28,7 @@
     "role": "Undergraduate",
     "affiliation": "LSU Vision Lab",
     "email": "[Placeholder]",
-    "image": "/assets/img/people/carlos-coronel.svg"
+    "image": "assets/img/people/carlos-coronel.svg"
   },
   {
     "name": "Ahmad Hijazi",
@@ -36,7 +36,7 @@
     "role": "Undergraduate",
     "affiliation": "LSU Vision Lab",
     "email": "[Placeholder]",
-    "image": "/assets/img/people/ahmad-hijazi.svg"
+    "image": "assets/img/people/ahmad-hijazi.svg"
   },
   {
     "name": "Austin Louque",
@@ -44,7 +44,7 @@
     "role": "Undergraduate",
     "affiliation": "LSU Vision Lab",
     "email": "[Placeholder]",
-    "image": "/assets/img/lsu-vision-placeholder.png"
+    "image": "assets/img/lsu-vision-placeholder.png"
   },
   {
     "name": "Jamar K Whitfield Jr",
@@ -52,6 +52,6 @@
     "role": "Undergraduate",
     "affiliation": "LSU Vision Lab",
     "email": "[Placeholder]",
-    "image": "/assets/img/people/Jamar Whitfield 866.JPG"
+    "image": "assets/img/people/Jamar Whitfield 866.JPG"
   }
 ]
