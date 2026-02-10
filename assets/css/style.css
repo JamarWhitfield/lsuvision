@@ -94,6 +94,14 @@ header{color:#fff}
 
 .announcements li{padding:0.6rem 0;border-bottom:1px solid #eee}
 
+/* About page */
+.about-mission{
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: #333;
+  max-width: 900px;
+}
+
 @media (max-width:576px){
   .card img{height:180px}
   .navbar-brand{font-size:1.05rem}
