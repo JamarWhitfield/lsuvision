@@ -1,3 +1,2 @@
-# LSU Vision Group — Starter Site
-
+# LSU Vision Group
 This repository is LSU Vision research group website.
