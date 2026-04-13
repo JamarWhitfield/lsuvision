@@ -18,7 +18,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
-        <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+        <li class="nav-item d-none"><a class="nav-link" href="research.html">Research</a></li>
         <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
       </ul>
     </div>
@@ -52,19 +52,119 @@
         <div class="card publication-card h-100">
           <div class="row g-0">
             <div class="col-4 d-flex align-items-center">
-              <img src="assets/img/publication-placeholder.svg" alt="placeholder" class="img-fluid p-3">
+              <img src="assets/img/publication-pdf/WorDepth Variational Language Prior for Monocular Depth Estimation.png" alt="WorDepth: Variational Language Prior for Monocular Depth Estimation cover" class="img-fluid p-3">
             </div>
             <div class="col-8">
               <div class="card-body">
-                <h5 class="card-title">Placeholder Title — Jan 15, 2026</h5>
-                <p class="card-text text-muted">Author D., Author E.</p>
-                <p class="card-text">Short abstract or description of the paper (one or two lines). Use the publications page to link to PDF or DOI.</p>
-                <a href="" class="btn btn-outline-secondary btn-sm">View PDF</a>
+                <h5 class="card-title"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zeng_WorDepth_Variational_Language_Prior_for_Monocular_Depth_Estimation_CVPR_2024_paper.html" target="_blank" rel="noopener">WorDepth: Variational Language Prior for Monocular Depth Estimation</a></h5>
+                <p class="card-text text-muted">Ziyao Zeng, Daniel Wang, Fengyu Yang, Hyoungseob Park, Stefano Soatto, Dong Lao, Alex Wong</p>
+                <p class="card-text">Monocular 3D reconstruction from a single image and from text are both inherently ill-posed problems, particularly due to scale and 
+                  spatial ambiguities; we explore whether combining these modalities can enable metric-scaled depth estimation. We introduce a variational framework that encodes text as a 
+                  distributional prior and conditions image-based sampling to predict depth maps, demonstrating consistent performance improvements on NYUv2 and KITTI.</p>
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zeng_WorDepth_Variational_Language_Prior_for_Monocular_Depth_Estimation_CVPR_2024_paper.pdf" target="_blank" rel="noopener" class="btn btn-outline-secondary btn-sm">View PDF</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+        <div class="col-md-6 mb-4" id="rsa-paper">
+          <div class="card publication-card h-100">
+            <div class="row g-0">
+              <div class="col-4 d-flex align-items-center">
+                <img src="assets/img/publication-pdf/Surprising Instabilities in Training Deep Networks and a Theoretical Analysis.png" alt="Placeholder publication cover" class="img-fluid p-3">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/7b97adeafa1c51cf65263459ca9d0d7c-Abstract-Conference.html" tabindex="-1" aria-disabled="true" class="text-decoration-none text-body">Surprising Instabilities in Training Deep Networks and a Theoretical Analysis</a></h5>
+                  <p class="card-text text-muted">Yuxin Sun, Dong Lao, Ganesh Sundaramoorthi, Anthony Yezzi</p>
+                  <p class="card-text">We show that training deep neural networks with SGD can be numerically unstable, where tiny floating-point errors may grow and cause noticeable 
+                    differences in test accuracy. Using a PDE-based analysis of a simple convolutional network, we identify when these instabilities occur and highlight how factors like 
+                    learning rate and weight decay can help maintain stable training.</p>
+                  <a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/7b97adeafa1c51cf65263459ca9d0d7c-Paper-Conference.pdf" class="btn btn-outline-secondary btn-sm disabled" tabindex="-1" aria-disabled="true">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card publication-card h-100">
+            <div class="row g-0">
+              <div class="col-4 d-flex align-items-center">
+                <img src="assets/img/publication-pdf/RSA Resolving Scale Ambiguities in Monocular Depth Estimators through Language Descriptions.png" alt="Placeholder publication cover" class="img-fluid p-3">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/cc92809cd8dfbd035801966ab4896741-Abstract-Conference.html" tabindex="-1" aria-disabled="true" class="text-decoration-none text-body">RSA: Resolving Scale Ambiguities in Monocular
+Depth Estimators through Language Descriptions</a></h5>
+                  <p class="card-text text-muted">Ziyao Zeng, Yangchao Wu, Hyoungseob Park, Daniel Wang, Fengyu Yang, Stefano Soatto, Dong Lao, Byung-Woo Hong, Alex Wong</p>
+                  <p class="card-text">We propose RSA, a method for metric-scale monocular depth estimation that leverages language descriptions to resolve scale ambiguity in single-image depth prediction. 
+                    By predicting a global linear transformation from text captions, RSA converts relative depth maps into metric scale and demonstrates improved alignment performance across indoor and outdoor datasets, including strong zero-shot generalization.</p>
+                  <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/cc92809cd8dfbd035801966ab4896741-Paper-Conference.pdf" class="btn btn-outline-secondary btn-sm disabled" tabindex="-1" aria-disabled="true">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card publication-card h-100">
+            <div class="row g-0">
+              <div class="col-4 d-flex align-items-center">
+                <img src="assets/img/publication-pdf/placeholder.png" alt="Placeholder publication cover" class="img-fluid p-3">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-73039-9_16" tabindex="-1" aria-disabled="true" class="text-decoration-none text-body">AugUndo: Scaling Up Augmentations for Monocular Depth Completion and Estimation</a></h5>
+                  <p class="card-text text-muted">Yangchao Wu, Tian Yu Liu, Hyoungseob Park, Stefano Soatto, Dong Lao & Alex Wong</p>
+                  <p class="card-text">We present a method for unsupervised depth completion and estimation that enables a broader range of geometric data augmentations without degrading reconstruction quality. By “undoing” transformations on predicted depth maps and computing 
+                    losses in the original reference frame, our approach avoids common augmentation artifacts and improves performance and generalization across indoor and outdoor datasets.</p>
+                  <a href="#" class="btn btn-outline-secondary btn-sm disabled" tabindex="-1" aria-disabled="true">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card publication-card h-100">
+            <div class="row g-0">
+              <div class="col-4 d-flex align-items-center">
+                <img src="assets/img/publication-pdf/placeholder.png" alt="Placeholder publication cover" class="img-fluid p-3">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://link.springer.com/chapter/10.1007/978-3-031-72913-3_19" tabindex="-1" aria-disabled="true" class="text-decoration-none text-body">On the Viability of Monocular Depth Pre-training for Semantic Segmentation</a></h5>
+                  <p class="card-text text-muted">Dong Lao, Fengyu Yang, Daniel Wang, Hyoungseob Park, Samuel Lu, Alex Wong & Stefano Soatto </p>
+                  <p class="card-text">This work investigates whether pre-training on geometric tasks can transfer to semantic tasks, using monocular depth prediction to prime object-level 
+                    understanding for semantic segmentation under various training conditions. Results show that depth-based pre-training consistently improves performance over standard baselines, while optical flow is less effective, 
+                    suggesting that learning latent scene structure—rather than raw temporal signals—plays a key role in enabling semantic inference.</p>
+                  <a href="#" class="btn btn-outline-secondary btn-sm disabled" tabindex="-1" aria-disabled="true">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="card publication-card h-100">
+            <div class="row g-0">
+              <div class="col-4 d-flex align-items-center">
+                <img src="assets/img/publication-pdf/placeholder.png" alt="Placeholder publication cover" class="img-fluid p-3">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="https://www.jmlr.org/papers/v25/23-0137.html" tabindex="-1" aria-disabled="true" class="text-decoration-none text-body">A PDE-based Explanation of Extreme Numerical Sensitivities and Edge of Stability in Training Neural Networks</a></h5>
+                  <p class="card-text text-muted">Yuxin Sun, Dong Lao, Anthony Yezzi, Ganesh Sundaramoorthi</p>
+                  <p class="card-text">We identify restrained numerical instabilities in deep networks trained with stochastic gradient descent (SGD), where tiny floating-point errors can be amplified and lead to significant variance in test accuracy comparable to stochastic effects. 
+                    Using a PDE-based analysis of CNN optimization, we show these instabilities are localized and persist near the Edge of Stability, providing new insights into how learning rate, weight decay, and network complexity influence stable training dynamics.</p>
+                  <a href="#" class="btn btn-outline-secondary btn-sm disabled" tabindex="-1" aria-disabled="true">View PDF</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
     </div>
 
