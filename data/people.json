@@ -17,7 +17,7 @@
   {
     "name": "Yi Xiao",
     "slug": "yi-xiao",
-    "role": "Graduate Student",
+    "role": "Ph.D. Student",
     "affiliation": "Computer Science",
     "email": "yi.xiao AT lsu DOT edu",
     "order": 1,
@@ -26,7 +26,7 @@
   {
     "name": "Wen Tian",
     "slug": "wen-tian",
-    "role": "Graduate Student",
+    "role": "Ph.D. Student",
     "affiliation": "Computer Science",
     "email": "tian.wen AT lsu DOT edu",
     "order": 2,
@@ -35,7 +35,7 @@
   {
     "name": "Carlos Coronel",
     "slug": "carlos-coronel",
-    "role": "Undergraduate",
+    "role": "Undergraduate Student",
     "affiliation": "Computer Science",
     "email": "crod143 AT lsu DOT edu",
     "image": "assets/img/people/carlos-coronel.svg"
@@ -43,7 +43,7 @@
   {
     "name": "Ahmad Hijazi",
     "slug": "ahmad-hijazi",
-    "role": "Undergraduate",
+    "role": "Undergraduate Student",
     "affiliation": "Computer Science",
     "email": "ahijaz3 AT lsu DOT edu",
     "image": "assets/img/people/ahmad-hijazi.svg"
@@ -51,7 +51,7 @@
   {
     "name": "Austin Louque",
     "slug": "austin-louque",
-    "role": "Undergraduate",
+    "role": "Undergraduate Student",
     "affiliation": "Computer Science",
     "email": "alouqu9 AT lsu DOT edu",
     "image": "assets/img/lsu-vision-placeholder.png"
@@ -59,7 +59,7 @@
   {
     "name": "Jamar K Whitfield Jr",
     "slug": "jamar-k-whitfield-jr",
-    "role": "Undergraduate",
+    "role": "Undergraduate Student",
     "affiliation": "Computer Science",
     "email": "jwhitf8 AT lsu DOT edu",
     "image": "assets/img/people/Jamar Whitfield 866.JPG"
