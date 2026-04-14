@@ -47,12 +47,17 @@
   <script>
     async function loadPeople(){
       try{
-        const res = await fetch('data/people.json');
+        const res = await fetch('data/people.json?v=20260414', { cache: 'no-store' });
         let people = await res.json();
         people = people || [];
 
-        // Sort by last name
+        // Respect explicit ordering when provided; otherwise sort by last name.
         people.sort((a,b)=>{
+          const orderA = Number.isFinite(a.order) ? a.order : Number.POSITIVE_INFINITY;
+          const orderB = Number.isFinite(b.order) ? b.order : Number.POSITIVE_INFINITY;
+          if(orderA !== orderB){
+            return orderA - orderB;
+          }
           const la = (a.name||'').split(' ').slice(-1)[0].toLowerCase();
           const lb = (b.name||'').split(' ').slice(-1)[0].toLowerCase();
           return la.localeCompare(lb);

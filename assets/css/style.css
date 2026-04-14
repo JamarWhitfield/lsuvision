@@ -1,3 +1,11 @@
+/* Announcements use regular black bullets */
+.announcements {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+.announcements li {
+  margin-bottom: 0.7em;
+}
 /* Profile photo enlarged for all profiles */
 .profile-photo {
   border-radius: 1rem;

@@ -4,7 +4,7 @@
     "slug": "dong-lao",
     "role": "Assistant Professor",
     "affiliation": "Louisiana State University",
-    "email": "[Placeholder]",
+    "email": "dlao1 AT lsu DOT edu",
     "office": "Office 3272W, Patrick F. Taylor Hall",
     "education": [
       "Ph.D. King Abdullah University of Science and Technology (KAUST), 2021",
@@ -18,40 +18,50 @@
     "name": "Yi Xiao",
     "slug": "yi-xiao",
     "role": "Graduate Student",
-    "affiliation": "LSU Vision Lab",
-    "email": "[Placeholder]",
+    "affiliation": "Computer Science",
+    "email": "yi.xiao AT lsu DOT edu",
+    "order": 1,
     "image": "assets/img/people/yi-xiao.svg"
+  },
+  {
+    "name": "Wen Tian",
+    "slug": "wen-tian",
+    "role": "Graduate Student",
+    "affiliation": "Computer Science",
+    "email": "tian.wen AT lsu DOT edu",
+    "order": 2,
+    "image": "assets/img/people/Wen Tian.png"
   },
   {
     "name": "Carlos Coronel",
     "slug": "carlos-coronel",
     "role": "Undergraduate",
-    "affiliation": "LSU Vision Lab",
-    "email": "[Placeholder]",
+    "affiliation": "Computer Science",
+    "email": "crod143 AT lsu DOT edu",
     "image": "assets/img/people/carlos-coronel.svg"
   },
   {
     "name": "Ahmad Hijazi",
     "slug": "ahmad-hijazi",
     "role": "Undergraduate",
-    "affiliation": "LSU Vision Lab",
-    "email": "[Placeholder]",
+    "affiliation": "Computer Science",
+    "email": "ahijaz3 AT lsu DOT edu",
     "image": "assets/img/people/ahmad-hijazi.svg"
   },
   {
     "name": "Austin Louque",
     "slug": "austin-louque",
     "role": "Undergraduate",
-    "affiliation": "LSU Vision Lab",
-    "email": "[Placeholder]",
+    "affiliation": "Computer Science",
+    "email": "alouqu9 AT lsu DOT edu",
     "image": "assets/img/lsu-vision-placeholder.png"
   },
   {
     "name": "Jamar K Whitfield Jr",
     "slug": "jamar-k-whitfield-jr",
     "role": "Undergraduate",
-    "affiliation": "LSU Vision Lab",
-    "email": "[Placeholder]",
+    "affiliation": "Computer Science",
+    "email": "jwhitf8 AT lsu DOT edu",
     "image": "assets/img/people/Jamar Whitfield 866.JPG"
   }
 ]
