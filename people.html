@@ -72,10 +72,10 @@
           const role = (p.role||'').toLowerCase();
           if(/professor|lecturer|research professor/.test(role)){
             facultyEl.appendChild(card);
-          } else if(/phd|ph\.d|graduate student|grad student/.test(role)){
-            gradEl.appendChild(card);
           } else if(/undergraduate|undergrad/.test(role)){
             underEl.appendChild(card);
+          } else if(/phd|ph\.d|graduate student|grad student/.test(role)){
+            gradEl.appendChild(card);
           } else {
             // default to graduate students
             gradEl.appendChild(card);
