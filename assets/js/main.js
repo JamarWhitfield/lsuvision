@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', ()=>{
-  console.log('LSU Vision site starter — ready');
-
   const recentPaperLink = document.getElementById('recent-paper-link');
   if (!recentPaperLink) {
     return;
